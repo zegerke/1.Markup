@@ -2,11 +2,15 @@ li {font-family: "Times New Roman", Times, serif;
     font-size: 20px;
   background-color: lightgray;
   border: dotted;
-
   width: 200px;
 padding: 5px 5px 5px 5px;
 margin:5px 5px 5px 5px;
+display:
 }
-li:hover{color:blue ;
+li:hover{color:red ;
   }
-body{background-color: }
+.roman{list-style-type: upper-roman;}
+body{background-image: url(raf.png);
+  background-repeat: repeat-x;
+margin: 150px 100px 100px 100px;
+}
