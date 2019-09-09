@@ -1,0 +1,12 @@
+li {font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+  background-color: lightgray;
+  border: dotted;
+
+  width: 200px;
+padding: 5px 5px 5px 5px;
+margin:5px 5px 5px 5px;
+}
+li:hover{color:blue ;
+  }
+body{background-color: }
