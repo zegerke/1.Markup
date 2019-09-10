@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 header{
   display: flex;
   background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url(ginger.jpg) ;
-  height: 140vh;
+  background-size: cover;
+  height: 100vh;
   flex-flow: column nowrap;
 align-items: center;
 justify-content: center;
@@ -18,7 +20,8 @@ justify-content: center;
   overflow: hidden;
   border-radius: 100%}
 
-.age{display:none;position: absolute;
+.age{display:none;
+  position: absolute;
 top: 25%;
 left:40%;
 visibility: hidden;
@@ -47,8 +50,22 @@ tr:nth-child(odd) td:hover{background-color: darkred}
 tr:nth-child(even){background-color: blue}
 tr:nth-child(even) td:hover{background-color: darkblue}
 
+footer{height: 150px;
+
+align-items: center;
+display: flex;
+justify-content: center;
+}
+ul{display: flex;
+justify-content: space-between;
+width: 400px;
+border-left: solid;
+border-right: solid;
+list-style: none;}
+
 body {
 font-family: 'Open Sans', sans-serif;
 font-size: 16px;
 font-weight: normal;
 }
+i:hover{color: red}
