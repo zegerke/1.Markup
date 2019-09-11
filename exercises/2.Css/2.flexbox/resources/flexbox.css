@@ -1,29 +1,46 @@
-header{display:flex;
-justify-content:center}
+header{
+  display:flex;
+  justify-content:center;
+}
 
-.mine{display:flex;
-flex-wrap:wrap;
-border:solid;
-width:336px;
-height:336px;}
+.mine{
+  display:flex;
+  flex-wrap:wrap;
+  border:solid;
+  width:336px;
+  height:336px;
+}
 
-div{height:40px;
-width:40px;
-background-color: lightgrey;
-border:1px dotted black;
-margin: 0 0 0 0;
-z-index: -1}
+div{
+  height:40px;
+  width:40px;
+  background-color: lightgrey;
+  border:1px dotted black;
+  margin: 0 0 0 0;
+  }
 
-.bomb{background-image: url(bomb.png) ;
-background-size: cover;}
+.bomb{
+  background-image: url(bomb.png) ;
+  background-size: cover;
+}
 
 .t{color: blue}
 .r{color: green}
 .e{color: red}
 
-.box{border:1px solid;
-box-shadow: inset 3px 3px white,inset -3px -3px gray;
+.box{
+  border:1px solid;
+  box-shadow: inset 3px 3px white,inset -3px -3px gray;
+    }
+
+span{
+  opacity: 0.0;
+    }
+.box:hover > span {
+  opacity:1 ;
 }
 
-body{font-size: 35px;
-text-align: center;}
+body{
+  font-size: 35px;
+  text-align: center;
+  }
