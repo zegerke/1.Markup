@@ -1,5 +1,6 @@
 header{
   display:flex;
+  flex-direction: column;
   justify-content:center;
   align-items: center;
   background-color: purple;
@@ -45,7 +46,8 @@ span{
     }
 .box:hover > span {
   opacity:1 ;
-}
+  }
+
 .bom{
   width: 40px;
   height: 40px;
