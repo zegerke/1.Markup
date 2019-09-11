@@ -16,13 +16,12 @@ z-index: -1}
 
 .bomb{background-image: url(bomb.png) ;
 background-size: cover;}
-span{opacity: 0,0}
+
 .t{color: blue}
 .r{color: green}
 .e{color: red}
 
-.box{border-bottom:1px solid;
-border-right: 1px solid;
+.box{border:1px solid;
 box-shadow: inset 3px 3px white,inset -3px -3px gray;
 }
 
