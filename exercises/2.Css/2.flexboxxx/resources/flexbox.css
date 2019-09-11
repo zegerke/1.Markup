@@ -1,0 +1,30 @@
+header{display:flex;
+justify-content:center}
+
+.mine{display:flex;
+flex-wrap:wrap;
+border:solid;
+width:336px;
+height:336px;}
+
+div{height:40px;
+width:40px;
+background-color: lightgrey;
+border:1px dotted black;
+margin: 0 0 0 0;
+z-index: -1}
+
+.bomb{background-image: url(bomb.png) ;
+background-size: cover;}
+span{opacity: 0,0}
+.t{color: blue}
+.r{color: green}
+.e{color: red}
+
+.box{border-bottom:1px solid;
+border-right: 1px solid;
+box-shadow: inset 3px 3px white,inset -3px -3px gray;
+}
+
+body{font-size: 35px;
+text-align: center;}
