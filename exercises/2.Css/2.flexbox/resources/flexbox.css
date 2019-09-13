@@ -10,10 +10,10 @@ header{
 .mine{
   display:flex;
   flex-wrap:wrap;
-  border-top: 10px solid gray;
-  border-left: 10px solid gray;
-  border-right: 10px solid white;
-  border-bottom: 10px solid white;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid gray;
+  border-bottom: 10px solid gray;
   width:336px;
   height:336px;
   box-shadow: 50px 50px 50px black;
