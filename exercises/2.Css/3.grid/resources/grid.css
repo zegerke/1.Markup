@@ -25,33 +25,33 @@ header{
   align-items:center;
   justify-content:center;
   background-color: blue;
-
+	height: 100vh
   }
   body{
     font-size: 20px;
   }
 img{
-  width: 60px;
-  height: 60px;
+  width: 35px;
+  height: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .board{
   display: grid;
-  grid-template-columns: 80px 640px 80px;
-  grid-template-rows:80px 640px 80px;
+  grid-template-columns: 50px 400px 50px;
+  grid-template-rows:50px 400px 50px;
 }
 
 .container{
   background: url(tile.png);
   background-repeat: repeat;
-  background-size: 160px 160px;
-  height: 640px;
-  width: 640px;
+  background-size: 100px 100px;
+  height: 400px;
+  width: 400px;
   display:grid;
-  grid-template-columns:repeat(8,80px) ;
-  grid-template-rows: repeat(8,80px);
+  grid-template-columns:repeat(8,50px) ;
+  grid-template-rows: repeat(8,50px);
   grid-column: 2;
   grid-row: 2;
   grid-template-areas:
