@@ -1,0 +1,262 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #2b2b2c;
+  position: fixed;
+  top: 0;
+  width: 100%;
+	z-index: 4;
+	height: 50px;
+	text-transform: uppercase;
+}
+.navlogo{
+	width: 150px;
+	height: 30px;
+	position: relative;
+	top: 7px
+}
+.navbar a {
+	float: none;
+  display: inline;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	position: relative;
+}
+.search{
+margin-left: 200px;
+color: white;
+border: 1px solid white;
+background-color: transparent;
+border-radius: 20px;
+}
+.deel1{
+  background: url(boven1.jpg)	;
+  background-size: 1920px 712px;
+	background-repeat: no-repeat;
+	height: 712px;
+	overflow: hidden;
+}
+.slash{
+  position: relative;
+  top: 610px;
+	border: none;
+	width: 110%;
+	height: auto;
+}
+
+
+
+.pg{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #33aae7;
+	text-transform: uppercase;
+	text-shadow: 5px 5px lightgray;
+}
+.flexdeel2{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
+}
+.itemsdeel2{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+.wbutton{
+	color: #33aae7;
+	background-color: transparent;
+	border: solid 1px #33aae7;
+	border-radius: 30px;
+	text-transform: uppercase;
+	padding: 7px 20px 7px 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.wbutton:hover{
+	background-color: #33aae7;
+	color: white;
+}
+.botdeel2{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 50px
+}
+.bbutton{
+	color: white;
+	background-color: #33aae7;
+	border: solid 1px #33aae7;
+	border-radius: 30px;
+	text-transform: uppercase;
+	padding: 7px 20px 7px 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.bbutton:hover{
+	color: #33aae7;
+	background-color: white;
+}
+.deel3{
+	background: url(bg.elements.png) #2b2b2c ;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#float{
+	margin-right: 50px;
+	width: 300px;
+	height: auto;
+}
+.pg2{
+	text-align: left;
+	font-size: 40px;
+	font-weight: bold;
+	color: #33aae7;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+.textdeel3{
+	color: white;
+	width: 50%;
+	margin-left: 20px;
+}
+.wow{
+	color: white;
+	font-size: 20px;
+	margin-left: 20px;
+	text-transform: uppercase;
+	margin-top: 40px
+}
+
+.deel3 button{
+	margin-left: 20px;
+}
+.topdeel4{
+	text-align: center;
+	margin-top: 40px
+}
+.flexdeel4{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
+}
+.itemsdeel4{
+	text-align: center;
+	font-weight: bold;
+}
+.i1{
+	width: 250px;
+}
+.i2{
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.i3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.deel5{
+	background: #2b2b2c;
+
+}
+.news{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+.griddeel5{
+	display: grid;
+	grid-template-columns: repeat(3,300px);
+	grid-template-rows: repeat(2,600px);
+	grid-gap: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.griditem{
+	overflow: hidden;
+	background-color: white;
+}
+.griditem2{
+	overflow: hidden;
+	background-color: white;
+	grid-column: span 2
+}
+.fotoa{
+	height: 300px;
+	width: 620px;
+	background: url(future.png);
+	background-size: cover;
+}
+.fotob{
+	height: 300px;
+	width: 300px;
+	background: url(narwal.jpg);
+	background-size: cover;
+}
+.fotoc{
+	height: 300px;
+	width: 300px;
+	background: url(fortune.jpg);
+	background-size: cover;
+}
+.fotod{
+	height: 300px;
+	width: 300px;
+	background: url(justjordan.jpg);
+	background-size: cover;
+}
+.fotoe{
+	height: 300px;
+	width: 300px;
+	background: url(princess.jpg);
+	background-size: cover;
+}
+.logo{
+	height: 20px;
+	background-color: #33aae7;
+	position: relative;
+	right: 0;
+	top: 280px
+
+}
+
+@media screen and (max-width: 782px){
+  .deel1{
+    background: url(boven2.png);
+  }
+	.slash{
+		opacity: 0;
+	}
+}
