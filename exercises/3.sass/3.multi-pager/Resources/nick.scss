@@ -1,0 +1,89 @@
+$lightfont: #E3DBD3;
+body{
+  color: gray;
+  font-weight: bold;
+}
+.nickcontainer{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+}
+.pagecontainer{
+  width: 980px;
+  height: 600px;
+  background-image:linear-gradient(to left, transparent, #010914), url(tenmo.jpg);
+  background-size: cover;
+  grid-column: 1;
+  grid-row: 2;
+}
+.adc{
+  width: 45px;
+  height: 45px;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.part1{
+  display: flex;
+  flex-flow: row;
+}
+.a{
+  h1{margin: 15px 0px 0px 20px;
+    font-size: 25px;
+    color: $lightfont
+  }
+  p{
+    margin: 0 0 0 20px;
+    color: gray;
+  }
+
+}
+.part2{
+  display: flex;
+  flex-flow: row;
+  font-size: 12px;
+  margin-left: 35px;
+  margin-top:5px;
+  p{
+    margin-right: 20px;
+  }
+  p:hover{
+    color:$lightfont;
+  }
+}
+.part3{
+  margin-left: 35px;
+  margin-top: 40px;
+  font-size: 12px;
+  p{ margin: 0px 0px;
+  }
+}
+.part4{
+  margin-left: 35px;
+  font-size: 12px;
+}
+.bottext{
+  margin-left: 35px;
+  margin-top: 40px;
+  width: 260px;
+  font-size: 11px;
+  font-weight: normal;
+  color: $lightfont;
+}
+.buttons{
+  margin-top: 60px;
+  margin-left: 35px;
+  button{
+    background: #232424;
+    color: #c9aa71;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-color: rgb(147, 115, 65);
+    margin-right: 25px;
+  }
+}
+.stats{
+  position: absolute;
+  left: 240px;
+  top: 135px;
+}
+.b{color: $lightfont}
