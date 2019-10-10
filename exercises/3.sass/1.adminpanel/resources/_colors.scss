@@ -1,0 +1,51 @@
+$bg-colors: ("item-color":rgb(255, 255, 255),
+    "btn-color":rgb(255, 255, 255),
+    "btn-icon-color":red);
+
+// $btn-dimensions: ("btn-height":100px,
+//     "btn-width":20%);
+
+$btn-icon-dimensions: ("btn-icon-height":100px,
+    "btn-icon-width":100px);
+
+.blue {
+    background-color: #00c0ef;
+}
+
+
+.red {
+    background-color: #dd4b39;
+}
+
+.redtxt {
+    color: #dd4b39;
+}
+
+.green {
+    background-color: #00a65a;
+}
+
+.greentxt {
+    color: #00a65a;
+}
+
+.orange {
+    background-color: #f39c12;
+}
+
+.orangetxt {
+    color: #f39c12;
+}
+
+
+.dbluetxt {
+    color: #3c8dbc;
+}
+
+.grey {
+    background-color: #d2d6de;
+}
+
+.greytxt {
+    color: #d2d6de;
+}

@@ -1,0 +1,33 @@
+@mixin flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@mixin flexbox-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    @include flexbox;
+}
+
+.flex-co {
+    @include flexbox-column
+}
+
+
+@mixin info-box {
+    display: flex;
+    color: white;
+}
+
+@mixin info-tag {
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.2);
+}

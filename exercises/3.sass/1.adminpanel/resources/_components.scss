@@ -1,0 +1,22 @@
+.info-box-container {
+    width: 70%;
+    padding-left: 10px;
+
+    .progress-bar {
+        height: 2px;
+        width: 100%;
+        background: #555;
+        margin: 10px 0;
+
+        & span {
+            display: block;
+            height: 2px;
+            background-color: white;
+        }
+    }
+
+    .progress-description {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,234 +1,514 @@
 <!DOCTYPE html>
 
-  <head>
-    <script src="https://kit.fontawesome.com/772742ad19.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="adminpanel.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <title>AdminLTE Dashboard</title>
-  </head>
-  <body>
-<div class="grid">
-  <div class="AdminLTE">
-    <p id="admin">Admin</p><p id="lte">LTE</p>
-  </div>
-  <div class="navbar">
-    <div class="toggle">
-      <i class="fas fa-bars"></i>
+<head>
+  <script src="https://kit.fontawesome.com/772742ad19.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="resources/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <title>AdminLTE Dashboard</title>
+</head>
+
+<body>
+  <!-- --------------------------------------------------------------HEADER + NAV------>
+  <div class="grid">
+    <div class="AdminLTE">
+      <p id="admin">Admin</p>
+      <p id="lte">LTE</p>
     </div>
-    <div class="rightnav">
-      <div class="mail">
-        <i class="far fa-envelope"></i>
-        <small class="labelgreen">4</small>
+    <div class="navbar">
+      <div class="toggle">
+        <i class="fas fa-bars"></i>
       </div>
-      <div class="bell">
-        <i class="far fa-bell"></i>
-        <p class="labelyel">10</p>
-      </div>
-      <div class="flag">
-        <i class="far fa-flag"></i>
-        <p  class="labelred">9</p>
-      </div>
-      <div class="user">
-        <img class="userimg" src="resources/user.jpg" alt="uder">
-        <p>Alexander Pierce</p>
-      </div>
-      <div class="cogs">
-        <i class="fas fa-cogs"></i>
-      </div>
-    </div>
-  </div>
-  <div class="sidebar">
-    <div class="userpanel">
-      <img class="panelimg" src="resources/user.jpg" alt="">
-      <div class="paneltext">
-        <p>Alexander Pierce</p>
-        <div class="online">
-          <i class="fas fa-circle"></i>
-          <p>Online</p>
+      <div class="rightnav">
+        <div class="mail">
+          <i class="far fa-envelope"></i>
+          <small class="labelgreen">4</small>
+        </div>
+        <div class="bell">
+          <i class="far fa-bell"></i>
+          <p class="labelyel">10</p>
+        </div>
+        <div class="flag">
+          <i class="far fa-flag"></i>
+          <p class="labelred">9</p>
+        </div>
+        <div class="user">
+          <img class="userimg" src="resources/user.jpg" alt="user">
+          <p>Alexander Pierce</p>
+        </div>
+        <div class="cogs">
+          <i class="fas fa-cogs"></i>
         </div>
       </div>
     </div>
-    <div class="searchcontainer">
-      <input class="searchbar" type="text" placeholder="Search...">
-      <button class="searchbut" type="button" name="button"><i class="fas fa-search"></i></button>
-    </div>
-    <div class="title">
-      <p>MAIN NAVIGATION</p>
-    </div>
-    <div class="items">
-      <i class="fas fa-tachometer-alt"></i>
-      <p>Dashboard</p>
-      <div class="icon">
-        <i class="fas fa-angle-left"></i>
-      </div>
-    </div>
-    <div class="items">
-      <i class="fa fa-files-o"></i>
-      <p>Layout Options</p>
-      <div class="icon" >
-        <p class="labelblue" >4</p>
-      </div>
-    </div>
-    <div class="items">
-      <i class="fa fa-th"></i>
-      <p>Widgets</p>
-      <div class="icon">
-        <p class="labelgreen">new</p>
-      </div>
-    </div>
-    <div class="items">
-      <i class="fa fa-pie-chart"></i>
-      <p>Charts</p>
-      <div class="icon">
-        <i class="fas fa-angle-left"></i>
-      </div>
-    </div>
-    <div class="items">
-      <i class="fa fa-laptop"></i>
-      <p>UI Elements</p>
-      <div class="icon">
-        <i class="fas fa-angle-left"></i>
-      </div>
-    </div>
-    <div class="items">
-      <i class="fa fa-edit"></i>
-      <p>Forms</p>
-      <div class="icon">
-        <i class="fas fa-angle-left"></i>
-      </div>
-    </div>
-    <div class="items">
-      <i class="fa fa-table"></i>
-      <p>Tables</p>
-      <div class="icon">
-        <i class="fas fa-angle-left"></i>
-      </div>
-    </div>
-    <div class="items">
-      <i class="fa fa-calendar"></i>
-      <p>Calendar</p>
-      <div class="icon">
-        <p class="labelblue">17</p>
-        <p class="labelred">3</p>
-      </div>
-    </div>
-    <div class="items">
-      <i class="fa fa-envelope"></i>
-      <p>Mailbox</p>
-      <div class="icon">
-        <p class="labelred">5</p>
-        <p class="labelgreen">16</p>
-        <p class="labelyel">12</p>
-      </div>
-    </div>
-    <div class="items">
-      <i class="fa fa-folder"></i>
-      <p>Examples</p>
-      <div class="icon">
-        <i class="fas fa-angle-left"></i>
-      </div>
-    </div>
-    <div class="items">
-      <i class="fa fa-share"></i>
-      <p>Multilevel</p>
-      <div class="icon">
-        <i class="fas fa-angle-left"></i>
-      </div>
-    </div>
-    <div class="items">
-      <i class="fa fa-book"></i>
-      <p>Documentation</p>
-    </div>
-    <div class="title">
-      <p>LABELS</p>
-    </div>
-    <div class="items">
-      <div class="red">
-        <i class="far fa-circle"></i>
-      </div>
-      <p>Important</p>
-    </div>
-    <div class="items">
-      <div class="orangec">
-        <i class="far fa-circle"></i>
-      </div>
-      <p>Warning</p>
-    </div>
-    <div class="items">
-      <div class="bluec">
-        <i class="far fa-circle"></i>
-      </div>
-      <p>Information</p>
-    </div>
-  </div>
-  <div class="flexmid">
-    <div class="memberbox">
-      <div class="boxtop">
-        <p class="boxtitle">Latest Members</p>
-        <div class="boxbuttons">
-          <i class="fa fa-minus"></i>
-          <i class="fa fa-times"></i>
+    <div class="sidebar">
+      <div class="userpanel">
+        <img class="panelimg" src="resources/user.jpg" alt="">
+        <div class="paneltext">
+          <p>Alexander Pierce</p>
+          <div class="online">
+            <i class="fas fa-circle"></i>
+            <p>Online</p>
+          </div>
         </div>
       </div>
-      <div class="boxcontent">
-        <div class="member">
-          <img class="memberimg" src="resources/user.jpg" alt="">
-          <p class="name">Pierce</p>
-          <p class="date">Today</p>
+      <div class="searchcontainer">
+        <input class="searchbar" type="text" placeholder="Search...">
+        <button class="searchbut" type="button" name="button"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="title">
+        <p>MAIN NAVIGATION</p>
+      </div>
+      <div class="items">
+        <i class="fas fa-tachometer-alt"></i>
+        <p>Dashboard</p>
+        <div class="icon">
+          <i class="fas fa-angle-left"></i>
         </div>
-        <div class="member">
-          <img class="memberimg" src="resources/user.jpg" alt="">
-          <p class="name">Pierce</p>
-          <p class="date">Today</p>
+      </div>
+      <div class="items">
+        <i class="fa fa-files-o"></i>
+        <p>Layout Options</p>
+        <div class="icon">
+          <p class="labelblue">4</p>
         </div>
-        <div class="member">
-          <img class="memberimg" src="resources/user.jpg" alt="">
-          <p class="name">Pierce</p>
-          <p class="date">Today</p>
+      </div>
+      <div class="items">
+        <i class="fa fa-th"></i>
+        <p>Widgets</p>
+        <div class="icon">
+          <p class="labelgreen" ">new</p>
+      </div>
+    </div>
+    <div class=" items">
+            <i class="fa fa-pie-chart"></i>
+            <p>Charts</p>
+            <div class="icon">
+              <i class="fas fa-angle-left"></i>
+            </div>
         </div>
-        <div class="member">
-          <img class="memberimg" src="resources/user.jpg" alt="">
-          <p class="name">Pierce</p>
-          <p class="date">Today</p>
+        <div class="items">
+          <i class="fa fa-laptop"></i>
+          <p>UI Elements</p>
+          <div class="icon">
+            <i class="fas fa-angle-left"></i>
+          </div>
         </div>
-        <div class="member">
-          <img class="memberimg" src="resources/user.jpg" alt="">
-          <p class="name">Pierce</p>
-          <p class="date">Today</p>
+        <div class="items">
+          <i class="fa fa-edit"></i>
+          <p>Forms</p>
+          <div class="icon">
+            <i class="fas fa-angle-left"></i>
+          </div>
         </div>
-        <div class="member">
-          <img class="memberimg" src="resources/user.jpg" alt="">
-          <p class="name">Pierce</p>
-          <p class="date">Today</p>
+        <div class="items">
+          <i class="fa fa-table"></i>
+          <p>Tables</p>
+          <div class="icon">
+            <i class="fas fa-angle-left"></i>
+          </div>
         </div>
-        <div class="member">
-          <img class="memberimg" src="resources/user.jpg" alt="">
-          <p class="name">Pierce</p>
-          <p class="date">Today</p>
+        <div class="items">
+          <i class="fa fa-calendar"></i>
+          <p>Calendar</p>
+          <div class="icon">
+            <p class="labelblue">17</p>
+            <p class="labelred">3</p>
+          </div>
         </div>
-        <div class="member">
-          <img class="memberimg" src="resources/user.jpg" alt="">
-          <p class="name">Pierce</p>
-          <p class="date">Today</p>
+        <div class="items">
+          <i class="fa fa-envelope"></i>
+          <p>Mailbox</p>
+          <div class="icon">
+            <p class="labelred">5</p>
+            <p class="labelgreen">16</p>
+            <p class="labelyel">12</p>
+          </div>
+        </div>
+        <div class="items">
+          <i class="fa fa-folder"></i>
+          <p>Examples</p>
+          <div class="icon">
+            <i class="fas fa-angle-left"></i>
+          </div>
+        </div>
+        <div class="items">
+          <i class="fa fa-share"></i>
+          <p>Multilevel</p>
+          <div class="icon">
+            <i class="fas fa-angle-left"></i>
+          </div>
+        </div>
+        <div class="items">
+          <i class="fa fa-book"></i>
+          <p>Documentation</p>
+        </div>
+        <div class="title">
+          <p>LABELS</p>
+        </div>
+        <div class="items">
+          <div class="red">
+            <i class="far fa-circle"></i>
+          </div>
+          <p>Important</p>
+        </div>
+        <div class="items">
+          <div class="orangec">
+            <i class="far fa-circle"></i>
+          </div>
+          <p>Warning</p>
+        </div>
+        <div class="items">
+          <div class="bluec">
+            <i class="far fa-circle"></i>
+          </div>
+          <p>Information</p>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------------FLEXBOX-->
+      <div class="site-container flex">
+        <!-----------------------------------------------------------DASHBOARD-TOP -->
+        <div class="row flex">
+          <div class="row-header">Dashboard Version 2.0 <div class="boxbuttons">
+              <i class="fa fa-minus"></i>
+              <i class="fa fa-times"></i>
+            </div>
+          </div>
+          <div class="btn flex">
+            <div class="btn-icon blue">
+              <i class="fa fa-cog fa-3x dashboard-icons" aria-hidden="true"></i>
+
+            </div>
+            <div class="btn-desc">
+              <div class=btn-txt>CPU traffic</div>
+              <div class=btn-num><B>90%</B></div>
+            </div>
+          </div>
+          <div class="btn flex">
+            <div class="btn-icon red">
+              <i class="fa fa-google-plus fa-3x dashboard-icons" aria-hidden="true"></i></div>
+            <div class="btn-desc">
+              <div class=btn-txt>Likes</div>
+              <div class=btn-num><b>41,410</b></div>
+            </div>
+          </div>
+          <div class="btn flex">
+            <div class="btn-icon green">
+              <i class="fa fa-shopping-cart fa-3x dashboard-icons" aria-hidden="true"></i>
+            </div>
+            <div class="btn-desc">
+              <div class=btn-txt>Sales</div>
+              <div class=btn-num><b>760</b></div>
+            </div>
+          </div>
+          <div class="btn flex">
+            <div class="btn-icon orange">
+              <i class="fa fa-users fa-3x dashboard-icons" aria-hidden="true"></i>
+
+            </div>
+            <div class="btn-desc">
+              <div class=btn-txt>New members</div>
+              <div class=btn-num><b>2,000</b></div>
+            </div>
+          </div>
+        </div>
+        <!-----------------------------------------------------------Visitors Report -->
+        <div class="row flex">
+          <div class="visitors-report flex">
+            <div>
+            </div>
+            <img src="resources/visitors-report-img.png">
+          </div>
+          <div class="report-cont flex-co">
+            <div class="inventory">
+              <div class="inventory-tag">
+                <i class="fas fa-tag"></i>
+              </div>
+              <div class="info-box-container">
+                <p>INVENTORY</p>
+                <p>5,200</p>
+                <div class="progress-bar">
+                  <span style="width:50%"></span>
+                </div>
+                <span class="progress-description">
+                  50% Increase in 30 Days
+                </span>
+              </div>
+            </div>
+            <div class="mentions">
+              <div class="mentions-tag">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="info-box-container">
+                <p>MENTIONS</p>
+                <p>92,050</p>
+                <div class="progress-bar">
+                  <span style="width:20%"></span>
+                </div>
+                <span class="progress-description">
+                  20% Increase in 30 Days
+                </span>
+              </div>
+            </div>
+            <div class="downloads">
+              <div class="downloads-tag">
+                <i class="fas fa-cloud-download-alt"></i>
+              </div>
+              <div class="info-box-container">
+                <p>DOWNLOADS</p>
+                <p>114,381</p>
+                <div class="progress-bar">
+                  <span style="width:70%"></span>
+                </div>
+                <span class="progress-description">
+                  70% Increase in 30 Days
+                </span>
+              </div>
+            </div>
+            <div class="direct-messages">
+              <div class="direct-messages-tag">
+                <i class="fas fa-comments"></i>
+              </div>
+              <div class="info-box-container">
+                <p>DIRECT MESSAGES</p>
+                <p>163,921</p>
+                <div class="progress-bar">
+                  <span style="width:40%"></span>
+                </div>
+                <span class="progress-description">
+                  40% Increase in 30 Days
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-----------------------------------------------------------MONTHLY RECAP -->
+        <div class="row flex">
+          <div class="row-header">Monthly recap report
+            <div class="boxbuttons">
+              <i class="fa fa-minus"></i>
+              <i class="fa fa-times"></i>
+            </div>
+          </div>
+          <div class="heading-recap flex"></div>
+          <div class="mid-recap flex"><img src="resources/graph.JPG""></div>
+          <div class=" goal-completion">goal completion
+            <div class="progress flex">
+              <div class="prorgess-txt">Add Products to Cart</div>
+              <div class="progress-num"><B>160</B>/200</div>
+              <div class="progress-bar">
+                <div class="progress-total blue"></div>
+              </div>
+            </div>
+            <div class="progress flex">
+              <div class="prorgess-txt">Complete Purchase</div>
+              <div class="progress-num"><B>310</B>400</div>
+              <div class="progress-bar">
+                <div class="progress-total red"></div>
+              </div>
+            </div>
+            <div class="progress flex">
+              <div class="prorgess-txt">Visit Premium Page</div>
+              <div class="progress-num"><b>480</b>8200</div>
+              <div class="progress-bar">
+                <div class="progress-total green"></div>
+              </div>
+            </div>
+            <div class="progress flex">
+              <div class="prorgess-txt">Send Inquiries</div>
+              <div class="progress-num"><B>250</B>/500</div>
+              <div class="progress-bar">
+                <div class="progress-total orange"></div>
+              </div>
+            </div>
+          </div>
+          <div class="footing-recap flex">
+            <div class="recap-btn">
+              <div class="footing-recap-perc greentxt">17%</div>
+              <div class="footing-recap-num">$35,210.43</div>
+              <div class="footing-recap-txt">TOTAL REVENUE</div>
+            </div>
+            <div class="recap-btn">
+              <div class="footing-recap-perc orangetxt">0%</div>
+              <div class="footing-recap-num">$10,390.90</div>
+              <div class="footing-recap-txt">TOTAL COST </div>
+            </div>
+            <div class="recap-btn">
+              <div class="footing-recap-perc greentxt">20%</div>
+              <div class="footing-recap-num">$24,813.53</div>
+              <div class="footing-recap-txt">TOTAL PROFIT</div>
+            </div>
+            <div class="recap-btn">
+              <div class="footing-recap-perc redtxt">18%</div>
+              <div class="footing-recap-num">1200</div>
+              <div class="footing-recap-txt">GOAL COMPLETIONS</div>
+            </div>
+          </div>
+        </div>
+        <!------------------------------------------------------------------------BROWSER USAGE -->
+        <div class="browser-usage-cont flex">
+          <div class="browser-usage-title">Browser Usage <div class="boxbuttons">
+              <i class="fa fa-minus"></i>
+              <i class="fa fa-times"></i>
+            </div>
+          </div>
+          <img src="resources/piegraph.JPG">
+          <div class="browsers">
+            <div class="browsers-txt"><i class="redtxt fa fa-circle-o redtxt browser-icons"
+                aria-hidden="true"></i>Chrome
+            </div>
+            <div class="browsers-txt"><i class="greentxt fa fa-circle-o browser-icons" aria-hidden="true"></i>IE
+            </div>
+            <div class="browsers-txt"><i class="orangetxt fa fa-circle-o browser-icons" aria-hidden="true"></i>FireFox
+            </div>
+            <div class="browsers-txt"><i class="bluetxt fa fa-circle-o browser-icons" aria-hidden="true"></i>Safari
+            </div>
+            <div class="browsers-txt"><i class="dbluetxt fa fa-circle-o browser-icons" aria-hidden="true"></i>Opera
+            </div>
+            <div class="browsers-txt"><i class="greytxt fa fa-circle-o browser-icons" aria-hidden="true"></i>Navigator
+            </div>
+          </div>
+          <div class="browser-usage-countries">
+            <div class="country-bar">
+              <div class="country-txt">United States of America</div>
+              <div class="country-perc redtxt">12%</div>
+              <div class="country-bar">
+                <div class="country-txt">India</div>
+                <div class="country-perc greentxt">4%</div>
+              </div>
+              <div class="country-bar">
+                <div class="country-txt">China</div>
+                <div class="country-perc orangetxt">0%</div>
+              </div>
+            </div>
+          </div>
         </div>
 
+        <!-----------------------------------------------------------LATEST MEMBERS -->
+
+        <div class="memberbox">
+          <div class="boxtop">
+            <p class="boxtitle">Latest Members</p>
+            <div class="boxbuttons">
+              <i class="fa fa-minus"></i>
+              <i class="fa fa-times"></i>
+            </div>
+          </div>
+          <div class="boxcontent flex">
+            <div class="member">
+              <img class="memberimg" src="resources/user2.jpg" alt="">
+              <p class="name">Alexander Pierce</p>
+              <p class="date">Today</p>
+            </div>
+            <div class="member">
+              <img class="memberimg" src="resources/user8.jpg" alt="">
+              <p class="name">Norman</p>
+              <p class="date">Yesterday</p>
+            </div>
+            <div class="member">
+              <img class="memberimg" src="resources/user7.jpg" alt="">
+              <p class="name">Jane</p>
+              <p class="date">12 Jan</p>
+            </div>
+            <div class="member">
+              <img class="memberimg" src="resources/user6.jpg" alt="">
+              <p class="name">John</p>
+              <p class="date">12 Jan</p>
+            </div>
+            <div class="member">
+              <img class="memberimg" src="resources/user.jpg" alt="">
+              <p class="name">Alexander</p>
+              <p class="date">13 Jan</p>
+            </div>
+            <div class="member">
+              <img class="memberimg" src="resources/user5.jpg" alt="">
+              <p class="name">Sarah</p>
+              <p class="date">14 Jan</p>
+            </div>
+            <div class="member">
+              <img class="memberimg" src="resources/user4.jpg" alt="">
+              <p class="name">Nora</p>
+              <p class="date">15 Jan</p>
+            </div>
+            <div class="member">
+              <img class="memberimg" src="resources/user3.jpg" alt="">
+              <p class="name">Nadia</p>
+              <p class="date">15 Jan</p>
+            </div>
+          </div>
+          <div class="boxbot">
+            <p>View All Users</p>
+          </div>
+        </div>
+        <!-----------------------------------------------------------LATEST ORDERS -->
+        <div class="latest-orders-cont flex">
+          <div class="order-title">Latest Orders</div>
+          <div class="order-header">Order ID</div>
+          <div class="order-header">Item</div>
+          <div class="order-header">Status </div>
+          <div class="order-header">Popularity </div>
+
+          <div class="order-column-cont flex-co">
+            <div class="order-column">OR9842</div>
+            <div class="order-column">OR1848</div>
+            <div class="order-column">OR7429</div>
+            <div class="order-column">OR7429</div>
+            <div class="order-column">OR1848</div>
+            <div class="order-column">OR7429</div>
+            <div class="order-column">OR9842</div>
+          </div>
+          <div class="order-column-cont flex-co">
+            <div class="order-column">Call of Duty IV</div>
+            <div class="order-column">Samsung Smart TV</div>
+            <div class="order-column">iPhone 6 Plus</div>
+            <div class="order-column">Samsung Smart TV</div>
+            <div class="order-column">Samsung Smart TV</div>
+            <div class="order-column">iPhone 6 Plus</div>
+            <div class="order-column">Call of Duty IV</div>
+          </div>
+
+          <div class="order-column-cont flex-co">
+            <div class="order-column color-border green">Shipped</div>
+            <div class="order-column color-border orange">Pending</div>
+            <div class="order-column color-border red">Delivered</div>
+            <div class="order-column color-border blue">Processing</div>
+            <div class="order-column color-border orange">Pending</div>
+            <div class="order-column color-border red">Delivered</div>
+            <div class="order-column color-border green">Shipped</div>
+          </div>
+
+          <div class="order-column-cont flex-co">
+            <div class="order-column order-column-img"><img src="resources/popularity1.JPG" alt=""></div>
+            <div class="order-column order-column-img"><img src="resources/popularity2.JPG" alt=""></div>
+            <div class="order-column order-column-img"><img src="resources/popularity3.JPG" alt=""></div>
+            <div class="order-column order-column-img"><img src="resources/popularity4.JPG" alt=""></div>
+            <div class="order-column order-column-img"><img src="resources/popularity5.JPG" alt=""></div>
+            <div class="order-column order-column-img"><img src="resources/popularity6.JPG" alt=""></div>
+            <div class="order-column order-column-img"><img src="resources/popularity1.JPG" alt=""></div>
+
+          </div>
+
+          <div class="order-footer flex">
+            <div class="order-btn blue">Place new order</div>
+            <div class="order-btn grey">View all orders</div>
+          </div>
+        </div>
       </div>
-      <div class="boxbot">
-        <p>View All Users</p>
+
+</body>
+<footer>
+  <div class="footer-cont">
+    <div class="footer">
+      <div class="footerleft">
+        <p class="bold">Copyright © 2014-2019</p>
+        <a class="flink" href="#">AdminLTE</a>
+        <p>.All rights reserved.</p>
+      </div>
+      <div class="footerright">
+        <p class="bold">Version </p>
+        <p>2.4.13</p>
       </div>
     </div>
   </div>
-  <div class="footer">
-    <div class="footerleft">
-      <p class="bold">Copyright © 2014-2019</p>
-      <a class="flink"href="#">AdminLTE</a>
-      <p>.All rights reserved.</p>
-    </div>
-    <div class="footerright">
-      <p class="bold">Version </p>
-      <p>2.4.13</p>
-    </div>
-  </div>
-</div>
-  </body>
+</footer>
+
 </html>
