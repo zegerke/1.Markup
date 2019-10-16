@@ -11,9 +11,3 @@ li {
 li:hover{color:red ;}
 
 .roman{list-style-type: upper-roman;}
-
-body{
-  background-image: url(raf.png);
-  background-repeat: repeat-x;
-  margin: 150px 100px 100px 100px;
-}
